@@ -1,0 +1,12 @@
+source https://nuget.org/api/v2
+
+nuget Argu
+nuget FAKE
+nuget FSharp.Compiler.Service
+nuget FSharp.Core
+
+group Build
+source https://www.nuget.org/api/v2
+
+nuget GitVersion.CommandLine
+nuget NuGet.CommandLine

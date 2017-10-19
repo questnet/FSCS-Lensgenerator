@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>@project@</id>
+    <version>@build.number@</version>
+    <authors>@authors@</authors>
+    <owners>QuestNet GmbH</owners>
+    <copyright>© QuestNet GmbH. All rights reserved.</copyright>
+    <language>en-US</language>
+    <summary>@summary@</summary>
+    <description>@description@</description>
+    <projectUrl>https://github.com/questnet/FSCS-Lensgenerator</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/31929641</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <releaseNotes>@releaseNotes@</releaseNotes>
+    <tags>Lens, CodeGeneration, FSharp</tags>
+    @dependencies@
+  </metadata>
+  <files>
+    <file src="tools\*.*" target="tools\" />
+  </files>
+</package>
