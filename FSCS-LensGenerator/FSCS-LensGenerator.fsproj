@@ -26,7 +26,8 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DocumentationFile>bin\Debug\FSCSLensGenerator.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
-    <StartArguments>--projectname IVR.Domain --projectdir C:\git\QuestNet.IVR\IVR.Domain --projectfilename IVR.Domain.fsproj --outfilename C:\temp\IVR.Domain.Lenses\lenses.fs --outputnamespace IVRInterpreter.Test.Lenses --syslib System.Numerics --projlib ..\packages\FParsec\lib\net40-client\FParsec.dll --projlib ..\packages\FParsec\lib\net40-client\FParsecCS.dll --libdir C:\tmp\cr903-201702161046-Debug\bin --binlib FunToolbox.dll --waitbeforeexit --shimreferenceassemblies</StartArguments>
+    <StartArguments>
+    </StartArguments>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -39,7 +40,8 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DocumentationFile>bin\Release\FSCS-LensGenerator.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
-    <StartArguments>--projectname "IVR.Domain" --projectdir "C:\git\QuestNet.IVR\IVR.Domain" --projectfilename "C:\git\QuestNet.IVR\IVR.Domain\IVR.Domain.fsproj" --outfilename "C:\git\QuestNet.IVR\IVR.Domain.Lenses\Lenses.fs" --outputnamespace "IVR.Domain.Lenses" --syslib "System.Numerics" --abslib "C:\git\QuestNet.IVR\FunToolBox\FunToolBox\bin\Release\FunToolbox.dll" --libdir "C:\git\QuestNet.IVR\packages\FParsec\lib\net40-client" --binlib "FParsec.dll" --binlib "FParsecCS.dll" --waitbeforeexit --shimreferenceassemblies</StartArguments>
+    <StartArguments>
+    </StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
