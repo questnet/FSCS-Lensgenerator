@@ -8,7 +8,7 @@
     <ProjectGuid>95be43cf-8c0d-4857-8ce1-b7e43ec514ca</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSCS-Lensgenerator</RootNamespace>
-    <AssemblyName>FSCS-Lensgenerator</AssemblyName>
+    <AssemblyName>FSCSLensGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <Name>FSCS-Lensgenerator</Name>
     <TargetFrameworkProfile />

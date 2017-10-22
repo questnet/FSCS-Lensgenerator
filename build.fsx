@@ -231,8 +231,8 @@ Target "GenerateHelp" (fun _ ->
     Rename "docsrc/content/release-notes.md" "docsrc/content/RELEASE_NOTES.md"
 
     DeleteFile "docsrc/content/license.md"
-    CopyFile "docsrc/content/" "LICENSE.txt"
-    Rename "docsrc/content/license.md" "docsrc/content/LICENSE.txt"
+    CopyFile "docsrc/content/" "LICENSE"
+    Rename "docsrc/content/license.md" "docsrc/content/LICENSE"
 
     generateHelp true
 )
@@ -243,8 +243,8 @@ Target "GenerateHelpDebug" (fun _ ->
     Rename "docsrc/content/release-notes.md" "docsrc/content/RELEASE_NOTES.md"
 
     DeleteFile "docsrc/content/license.md"
-    CopyFile "docsrc/content/" "LICENSE.txt"
-    Rename "docsrc/content/license.md" "docsrc/content/LICENSE.txt"
+    CopyFile "docsrc/content/" "LICENSE"
+    Rename "docsrc/content/license.md" "docsrc/content/LICENSE"
 
     generateHelp' true true
 )
