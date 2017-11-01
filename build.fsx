@@ -144,12 +144,14 @@ Target "Build" (fun _ ->
 // Run the unit tests using test runner
 
 Target "RunTests" (fun _ ->
+    let ignoreMessage testAssemblyName = (printf "Cannot test file '%s'. TODO: wire up FsUnit/xUnit." testAssemblyName)
     !! testAssemblies
-    |> NUnit (fun p ->
-        { p with
-            DisableShadowCopy = true
-            TimeOut = TimeSpan.FromMinutes 20.
-            OutputFile = "TestResults.xml" })
+    |> Seq.iter ignoreMessage
+    // |> NUnit (fun p ->
+    //     { p with
+    //         DisableShadowCopy = true
+    //         TimeOut = TimeSpan.FromMinutes 20.
+    //         OutputFile = "TestResults.xml" })
 )
 
 
