@@ -18,8 +18,8 @@ group Build
   nuget FSharp.Formatting
   nuget GitVersion.CommandLine
   nuget NuGet.CommandLine
-
-  source https://nuget.org/api/v2
+  
+  github fsharp/FAKE modules/Octokit/Octokit.fsx
 
 group Test
   source https://www.nuget.org/api/v2
