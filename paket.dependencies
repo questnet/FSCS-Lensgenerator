@@ -22,6 +22,11 @@ group Build
   nuget GitVersion.CommandLine
   nuget NuGet.CommandLine
 
-group Test
   source https://nuget.org/api/v2
 
+group Test
+  source https://www.nuget.org/api/v2
+
+  nuget FsUnit.xUnit
+  nuget xunit.runner.console
+  nuget xunit.runner.visualstudio version_in_path: true
