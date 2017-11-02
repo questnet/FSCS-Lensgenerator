@@ -1,0 +1,27 @@
+type project
+title
+    FSCS-Lensgenerator
+owners
+    QuestNet GmbH
+authors 
+    QuestNet GmbH
+projectUrl
+    https://github.com/questnet/FSCS-Lensgenerator
+iconUrl
+    https://raw.githubusercontent.com/questnet/FSCS-Lensgenerator/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/questnet/FSCS-Lensgenerator/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    Lens Optics CodeGeneration FSharp
+summary
+    FSCS-LensGenerator: generate lenses/optics for F# projects
+description
+    FSCS-LensGenerator is a code generator that generates lenses/optics for your F# projects. Currently only Aether output is supported but we're open accept other output providers.
+files
+    bin/Release/* ==> tools
+    ../../lib/* ==> tools
+
