@@ -22,5 +22,6 @@ summary
 description
     FSCS-LensGenerator is a code generator that generates lenses/optics for your F# projects. Currently only Aether output is supported but we're open accept other output providers.
 files
+    bin/Release/* ==> tools
     ../../lib/* ==> tools
 

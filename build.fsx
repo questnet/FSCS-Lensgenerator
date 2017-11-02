@@ -159,11 +159,15 @@ Target "RunTests" (fun _ ->
 // Build a NuGet package
 
 Target "NuGet" (fun _ ->
+    // use Paket.Pack instead of NuGet as we did in tfs project
+    // todo: delete FSCS-LensGenerator.nuspec once the generated package meets our 
+    //       requirements reproducibly
     Paket.Pack(fun p ->
         { p with
             OutputPath = "bin"
             Version = release.NugetVersion
             ReleaseNotes = toLines release.Notes})
+
 )
 
 Target "PublishNuget" (fun _ ->
