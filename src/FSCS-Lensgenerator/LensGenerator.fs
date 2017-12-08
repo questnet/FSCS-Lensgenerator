@@ -337,10 +337,15 @@ module LensHelper = // I know...
                     e.GenericArguments
                     |> Seq.map getTypeDisplayName
                 )
+            let getFunctionCode (e:FSharpType) =
+                e.Format FSharpDisplayContext.Empty
             if t.IsTupleType then
                 getTupleCode t
             else
-                breakAndReturn "alternatives????" // todo: handle
+                if t.IsFunctionType then
+                    getFunctionCode t
+                else
+                    breakAndReturn "alternatives????" // todo: handle
 
     let getCandidatesForPropertyShorty (propName:string) (propTypeName:string) = 
         let bestPropName = bestname propName // current implementation

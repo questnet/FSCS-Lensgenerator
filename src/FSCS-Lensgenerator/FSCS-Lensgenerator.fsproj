@@ -24,6 +24,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <OtherFlags>--warnon:1182</OtherFlags>
+    <StartArguments>--projectname "SampleInput" --projectdir "C:\git\FSCS-LensgeneratorSample\SampleInput\SampleInput" --projectfilename "C:\git\FSCS-LensgeneratorSample\SampleInput\SampleInput\SampleInput.fsproj" --outputnamespace "SampleInput.Lenses" --outputdir "C:\git\_temp\SampleInput.Lenses" --syslib "System.Numerics" --shimreferenceassemblies</StartArguments>
+    <StartWorkingDirectory>C:\git\_temp\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
