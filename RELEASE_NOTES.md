@@ -1,3 +1,6 @@
+#### 0.4.2 - December 8 2017
+* fix: format function types
+
 #### 0.4.1 - October 19 2017
 * public release
 
