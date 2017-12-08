@@ -6,7 +6,6 @@ Generate [Lenses][steckermeier2015lenses] for an FSharp project, currently only 
 | -------- | ------ |
 | master | [![Build status](https://ci.appveyor.com/api/projects/status/qe15qgdby7ctp6mi/branch/master?svg=true)](https://ci.appveyor.com/project/embix/fscs-lensgenerator/branch/master) |
 | [Samples][samplerepo]: master | [![Build status](https://ci.appveyor.com/api/projects/status/woaqf96rgy152co9/branch/master?svg=true)](https://ci.appveyor.com/project/embix/fscs-lensgeneratorsample/branch/master) |
-| [Samples][samplerepo]: [issue9_workaround](https://github.com/questnet/FSCS-Lensgenerator/issues/9)  | [![Build status](https://ci.appveyor.com/api/projects/status/woaqf96rgy152co9/branch/issue9_workaround?svg=true)](https://ci.appveyor.com/project/embix/fscs-lensgeneratorsample/branch/issue9_workaround) |
 
 # Introduction
 
